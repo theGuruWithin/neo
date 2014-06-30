@@ -8,3 +8,18 @@ Author URI:         http://ArthurKlein.com/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+/* ALK entries from tutorial 
+*/
+
+.darkBG {
+	background:#999;
+}
+
+.darkerBG {
+	background:666
+}
+
+.darkestBG {
+	background:#333;
+}
