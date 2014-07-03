@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
+=======
+<!doctype html>
+>>>>>>> upstream/master
 <html class="no-js" <?php language_attributes(); ?>>
 <head>
   <meta charset="utf-8">

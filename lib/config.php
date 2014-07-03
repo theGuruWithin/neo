@@ -2,17 +2,27 @@
 /**
  * Enable theme features
  */
+<<<<<<< HEAD
 add_theme_support('root-relative-urls');    // Enable relative URLs
 add_theme_support('bootstrap-top-navbar');  // Enable Bootstrap's top navbar
 add_theme_support('bootstrap-gallery');     // Enable Bootstrap's thumbnails component on [gallery]
 add_theme_support('nice-search');           // Enable /?s= to /search/ redirect
+=======
+add_theme_support('soil-clean-up');         // Enable clean up from Soil
+add_theme_support('soil-relative-urls');    // Enable relative URLs from Soil
+add_theme_support('soil-nice-search');      // Enable /?s= to /search/ redirect from Soil
+add_theme_support('bootstrap-gallery');     // Enable Bootstrap's thumbnails component on [gallery]
+>>>>>>> upstream/master
 add_theme_support('jquery-cdn');            // Enable to load jQuery from the Google CDN
 
 /**
  * Configuration values
  */
 define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y (Note: Universal Analytics only, not Classic Analytics)
+<<<<<<< HEAD
 define('POST_EXCERPT_LENGTH', 40); // Length in words for excerpt_length filter (http://codex.wordpress.org/Plugin_API/Filter_Reference/excerpt_length)
+=======
+>>>>>>> upstream/master
 
 /**
  * .main classes
@@ -26,14 +36,22 @@ function roots_main_class() {
     $class = 'col-sm-12';
   }
 
+<<<<<<< HEAD
   return $class;
+=======
+  return apply_filters('roots/main_class', $class);
+>>>>>>> upstream/master
 }
 
 /**
  * .sidebar classes
  */
 function roots_sidebar_class() {
+<<<<<<< HEAD
   return 'col-sm-4';
+=======
+  return apply_filters('roots/sidebar_class', 'col-sm-4');
+>>>>>>> upstream/master
 }
 
 /**
@@ -66,7 +84,11 @@ function roots_display_sidebar() {
     )
   );
 
+<<<<<<< HEAD
   return apply_filters('roots_display_sidebar', $sidebar_config->display);
+=======
+  return apply_filters('roots/display_sidebar', $sidebar_config->display);
+>>>>>>> upstream/master
 }
 
 /**

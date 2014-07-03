@@ -23,6 +23,13 @@ msgstr ""
 msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#: functions.php:29
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+>>>>>>> upstream/master
 #: index.php:5
 msgid "Sorry, no results were found."
 msgstr ""
@@ -93,6 +100,7 @@ msgstr ""
 msgid "Add all current published pages to the Primary Navigation"
 msgstr ""
 
+<<<<<<< HEAD
 #: lib/cleanup.php:193
 msgid "Continued"
 msgstr ""
@@ -101,6 +109,29 @@ msgstr ""
 msgid "Primary Navigation"
 msgstr ""
 
+=======
+#: lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr ""
+
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:13
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/extras.php:6
+msgid "Continued"
+msgstr ""
+
+#: lib/init.php:36
+msgid "Primary"
+msgstr ""
+
+#: lib/init.php:45
+msgid "Footer"
+msgstr ""
+
+>>>>>>> upstream/master
 #: lib/titles.php:10
 msgid "Latest Posts"
 msgstr ""
@@ -129,6 +160,7 @@ msgstr ""
 msgid "Not Found"
 msgstr ""
 
+<<<<<<< HEAD
 #: lib/widgets.php:8
 msgid "Primary"
 msgstr ""
@@ -149,6 +181,8 @@ msgstr ""
 msgid "vCard"
 msgstr ""
 
+=======
+>>>>>>> upstream/master
 #: templates/comment.php:4
 msgid "%1$s"
 msgstr ""
@@ -161,12 +195,17 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/comments.php:8
+=======
+#: templates/comments.php:9
+>>>>>>> upstream/master
 msgid "One Response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
+<<<<<<< HEAD
 #: templates/comments.php:18
 msgid "&larr; Older comments"
 msgstr ""
@@ -224,6 +263,65 @@ msgid "Comment"
 msgstr ""
 
 #: templates/comments.php:74
+=======
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr ""
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: templates/comments.php:30 templates/comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: templates/comments.php:42
+msgid "Leave a Reply"
+msgstr ""
+
+#: templates/comments.php:42
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/comments.php:45
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: templates/comments.php:50
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: templates/comments.php:51
+msgid "Log out of this account"
+msgstr ""
+
+#: templates/comments.php:51
+msgid "Log out &raquo;"
+msgstr ""
+
+#: templates/comments.php:55
+msgid "Name"
+msgstr ""
+
+#: templates/comments.php:55 templates/comments.php:59
+msgid " (required)"
+msgstr ""
+
+#: templates/comments.php:59
+msgid "Email (will not be published)"
+msgstr ""
+
+#: templates/comments.php:63
+msgid "Website"
+msgstr ""
+
+#: templates/comments.php:68
+msgid "Comment"
+msgstr ""
+
+#: templates/comments.php:71
+>>>>>>> upstream/master
 msgid "Submit Comment"
 msgstr ""
 
@@ -235,10 +333,42 @@ msgstr ""
 msgid "By"
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/searchform.php:3 templates/searchform.php:6
 msgid "Search"
 msgstr ""
 
 #: templates/searchform.php:4
 msgid "Search for:"
+=======
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. <a href=\"https://github.com/roots/roots/contributors\">Contribute on GitHub</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+>>>>>>> upstream/master
 msgstr ""
